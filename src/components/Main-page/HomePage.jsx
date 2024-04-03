@@ -139,7 +139,8 @@ export default function HomePage(props) {
   }, []);
 
   return (
-    <div id="top" className="Whole_div" style={{ backgroundImage: `url(${pattern})` }}>
+    // <div id="top" className="Whole_div" style={{ backgroundImage: `url(${pattern})` }}>
+    <div id="top" className="Whole_div" style={{ backgroundColor: '#f1f1f1'}}>
       <div className="color_sectiom">
         <Container fluid>
           <Row className="Row info">
@@ -147,7 +148,7 @@ export default function HomePage(props) {
               <Myinfo />
             </Col>
             <Col className="d-image" sm={12} lg={5} md={4}>
-              <img alt="img" src={TOP_SECTION.IMG_SRC} />
+              {/* <img alt="img" src={TOP_SECTION.IMG_SRC} /> */}
               <br />
             </Col>
           </Row>

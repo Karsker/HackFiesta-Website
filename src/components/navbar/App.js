@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import hamLogo from "./ham.svg";
 import logoClose from "./ham-c.svg";
-import mainlogo from "./LOGO.png";
+import mainlogo from "./HACKFIESTA-LOGO.png";
 import styled from "styled-components";
 import "./styles.scss";
 
@@ -39,7 +39,7 @@ const NAVBAR = () => {
     };
   }, []);
   const [toggle, setToggle] = useState(true);
-  const [color, setColor] = useState("#121930");
+  const [color, setColor] = useState("#191919");
 
   const navigation = useRef();
 

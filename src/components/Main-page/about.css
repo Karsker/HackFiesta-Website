@@ -14,7 +14,8 @@
 
 
 .color_sectiom {
-  background-color: #121930;
+  /* background-color: #121930;*/
+  background-image: linear-gradient(to right, rgb(8, 0, 80) , rgb(155, 2, 2));
   padding-bottom: 5rem;
 }
 
